@@ -3,7 +3,28 @@ package main
 import "fmt"
 
 func main() {
-	animals := []string{"dog", "cat", "alligator", "cheetah", "rat", "moose", "cow", "mink", "porcupine", "dung beetle", "camel", "steer", "bat", "hamster", "horse", "colt", "bald eagle", "frog", "rooster"}
+	animals := []string{
+		"dog",
+		"cat",
+		"alligator",
+		"Cheetah",
+		"rat",
+		"moose",
+		"cow",
+		"mink",
+		"porcupine",
+		"dung beetle",
+		"camel",
+		"steer",
+		"bat",
+		"hamster",
+		"horse",
+		"colt",
+		"bald eagle",
+		"frog",
+		"rooster",
+	}
+
 	fmt.Println("Unsorted: ", animals)
 
 	bubbleSort(animals)
